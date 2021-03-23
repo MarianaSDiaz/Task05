@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+article{
+    width: auto;
+    margin: 10px 45px;
+}
+#container2{
+    width: 65%;
+}
+header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.75rem;
+    line-height: 3rem;
+    color: rgb(63, 63, 66);
+    margin: 10px 0;
+}
+time{
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    margin-top: -0.25rem;
+    color: rgb(105, 105, 105);
+}
+section{
+    
+}
+
+
