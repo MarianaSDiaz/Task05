@@ -6,9 +6,9 @@ body {
 #container {
     /* width: 100%; */
     margin: 15px 25px;
-    padding: 5px 20px;
+    padding: 0px 20px;
     border-style: solid;
-    border-color: rgb(184, 184, 184);
+    border-color: rgb(196, 196, 196);
     border-width: 1px;
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,15 +17,110 @@ body {
 
 article {
     order: 1;
-    border: 1px solid rgb(184, 184, 184);
-    padding: ;
+    padding: 10px;
+    width: 75%;
 }
 #title {
     font-size: xx-large;
-    font-weight: 500;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#sub-title{
+    font-size: medium;
+    font-weight: 700;
+}
+figcaption{
+    color: #767676;
+    font-size: 12px;
+}
+#paragraph{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #121212;
+}
+.links{
+    text-decoration: none;
+    border-bottom: 1px solid #DCDCDC;
+    color: #C70000;
+}
+.links:hover{
+    border-bottom: 1px solid #C70000;
+}
+
+#not-new{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #121212;
+    padding: 4px 4px 12px;
+    border-top: 1px solid rgb(255, 229, 0);
+    background-color: rgb(246, 246, 246);
+}
+
+#strong{
+    font-weight: 700;
+    background-color: rgb(255, 229, 0);
+}
+#buttons{
+    margin: 24px 8px 4px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#fake-button{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(255, 229, 0);
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1.5;
+    font-weight: 700;
+    height: 44px;
+    min-height: 44px;
+    padding: 0px 20px 2px;
+    border-radius: 44px;
+    color: rgb(18, 18, 18);
+    margin-right: 10px;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#real-button{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1.5;
+    font-weight: 700;
+    height: 44px;
+    min-height: 44px;
+    padding: 0px 20px 2px;
+    border-radius: 44px;
+    color: rgb(18, 18, 18);
+    border: 1px solid rgb(18, 18, 18);
+    background-color: transparent;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 18px;
+}
+#payment{
+    width: auto;
+    height: 25px;
+    margin: 4px 0px
 }
 
 #info {
     order: 0;
-    width: 75%;
+    width: 27%;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+
+#adv{
+    order: 2;
+    padding: 10px 20px 0 40px;
+    width: 30%;
+    /* position: fixed; */
 }

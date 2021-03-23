@@ -16,3 +16,4 @@ This is the new for the task 6 of the QA course
 https://www.theguardian.com/world/2021/mar/20/calls-overhaul-pride-in-london-after-resignations
 
 ## My new:
+https://marianasdiaz.github.io/Task05/the-guardian.html
