@@ -2,7 +2,6 @@ body {
     margin: 0px;
     width: 100%;
 }
-
 #container {
     /* width: 100%; */
     margin: 15px 25px;
@@ -14,7 +13,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-
 article {
     order: 1;
     padding: 10px;
@@ -46,7 +44,6 @@ figcaption{
 .links:hover{
     border-bottom: 1px solid rgb(199, 0, 0);
 }
-
 #not-new{
     font-size: 18px;
     line-height: 1.5;
@@ -55,7 +52,6 @@ figcaption{
     border-top: 1px solid rgb(255, 229, 0);
     background-color: rgb(246, 246, 246);
 }
-
 #strong{
     font-weight: 700;
     background-color: rgb(255, 229, 0);
@@ -131,14 +127,14 @@ figcaption{
     margin: 3px 0;
 }
 #info-writter{
-    /* font-size: 18px;
-    color: rgb(199, 0, 0); */
     border-top: 1px solid rgb(196, 196, 196);
+    border-bottom: 1px solid rgb(196, 196, 196);
 }
 .name{
     font-size: 18px;
     color: rgb(199, 0, 0);
     font-weight: 700;
+    margin: 5px 0 ;
 }
 .twitter-user{
     font-size: 12px;
@@ -151,11 +147,44 @@ figcaption{
     color: #767676;
     cursor: pointer;
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-    
+    padding: 10px 0;
+}
+#contact-us{
+    display: flex;
+    margin-top: 10px;
+} 
+#contact-us img{
+    border: 1px solid #DCDCDC;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: content-box;
+    margin-right: 5px;
+    padding: 5px;
+}
+.social-button{
+    text-decoration: none;
 }
 #adv{
     order: 2;
     padding: 10px 20px 0 40px;
     width: 30%;
-    /* position: fixed; */
+}
+footer{
+    height: 30px;
+    margin: 5px 0 0 0;
+    background-color: rgb(199, 0, 0);
+}
+.foot{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(196, 196, 196);
+    padding: 0 40%;
 }
