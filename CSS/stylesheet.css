@@ -33,3 +33,17 @@ section{
 }
 
 
+footer{
+    height: 30px;
+    margin: 5px 0 0 0;
+    background-color: rgb(199, 0, 0);
+}
+.foot{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(196, 196, 196);
+    padding: 0 40%;
+}
+
+
